@@ -10,17 +10,35 @@ class PagesController extends Controller {
         # receive data from the model
         # compile or process data from the model if needed
         # pass that data to the correct view
-        return view('welcome');
+        return view('pages.welcome');
     }
 
     public function getAbout() {
-        return view('about');
+        $name = "Inna";
+        $last_name = "Soldatkina";
+        $fullname = $name . " " . $last_name;
+        $email = 'inna.soldier@gmail.com';
+        $data = [];
+        $data['email'] = $email;
+        $data['fullname'] = $fullname;
+
+
+        //return view('pages.about')->with("fullname", $fullname);
+        //return view('pages.about')->withFullname($fullname)->withEmail($email); //shortcut
+        return view('pages.about', [
+            'fullname'=>$fullname,
+            'email' => $email
+        ]); //passing with associative array
+
     }
 
     public function getContact() {
-        return view('contact');
+        return view('pages.contact');
     }
 
+    public function getProjects() {
+        return view('pages.projects');
+    }
 //    public function postContact() {
 //
 //    }

@@ -19,3 +19,7 @@ Route::get('about','PagesController@getAbout');
 
 Route::get('contact', 'PagesController@getContact');
 
+Route::get('projects', 'PagesController@getProjects');
+
+Route::resource('project', 'ProjectController');
+
