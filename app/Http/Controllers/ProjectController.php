@@ -4,6 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
+use App\Project;
+use Session;
+
 class ProjectController extends Controller
 {
     /**
@@ -23,7 +28,7 @@ class ProjectController extends Controller
      */
     public function create()
     {
-        //
+        return view('project.create');
     }
 
     /**
@@ -34,7 +39,23 @@ class ProjectController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'title' => 'required|max:255',
+            'body' => 'required',
+        ]);
+
+        //store in the database
+        $project = new Project;
+
+        $project->title = $request->title;
+        $project->body = $request->body;
+
+        $project->save();
+
+        Session::flash('success', 'The project was successfully added!');
+
+        return redirect()->route('project.show', $project->id);
+
     }
 
     /**
@@ -45,7 +66,7 @@ class ProjectController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('project.show');
     }
 
     /**

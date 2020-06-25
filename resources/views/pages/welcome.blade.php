@@ -21,7 +21,7 @@
     <div class="container py-4">
         <ul class="row list-unstyled">
             <li class="col-md-6 mb-3">
-                <a href="#">
+                <a href="https://travelblog.innaweb.tech">
                     <figure>
                         <div class="img-overlay mb-3">
                             <img src="{{ asset('images/blog.png') }}" alt="Architecture" class="img-thumbnail">
@@ -35,7 +35,7 @@
             </li>
 
             <li class="col-md-6 mb-3">
-                <a href="#">
+                <a href="http://gemalmaz.com">
                     <figure>
                         <div class="img-overlay mb-3">
                             <img src="{{ asset('images/gemalmaz.png') }}" alt="Interior Design" class="img-thumbnail">
@@ -49,7 +49,7 @@
             </li>
 
             <li class="col-md-6 mb-3">
-                <a href="portfolio-3.html">
+                <a href="http://capstone.innaweb.tech">
                     <figure>
                         <div class="img-overlay mb-3">
                             <img src="{{ asset('images/boat.png') }}" alt="Photography" class="img-thumbnail">
@@ -63,7 +63,7 @@
             </li>
 
             <li class="col-md-6 mb-3">
-                <a href="portfolio-4.html">
+                <a href="#">
                     <figure>
                         <div class="img-overlay mb-3">
                             <img src="{{ asset('images/default.png') }}" alt="Web Design" class="img-thumbnail shadow-drop-2-center">
@@ -77,7 +77,7 @@
             </li>
         </ul>
         <div class="text-center my-5">
-            <a href="pages.html" class="btn btn-outline-white">View all</a>
+            <a href="/projects" class="btn btn-outline-white">View all</a>
         </div>
     </div>
     <!-- Testimonials -->

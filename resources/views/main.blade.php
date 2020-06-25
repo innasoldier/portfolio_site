@@ -8,9 +8,12 @@
             @include('partials._nav')
         </header>
         <main id="content">
+            @include('partials._messages')
             @yield('content')
         </main>
         @include('partials._footer')
         @include('partials._javascript')
+
+        @yield('scripts')
     </body>
 </html>
