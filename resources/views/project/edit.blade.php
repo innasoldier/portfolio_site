@@ -1,12 +1,16 @@
 @extends('main')
 
-@section('title', '| View Post')
+@section('title', '| Edit Project')
 
 @section('content')
     <div class="row">
+        {!! Form::model($project, ['route' => ['project.update', $project->id], 'method' => 'PUT']) !!}
         <div class="col-md-8">
-            <h1>{{ $project->title }}</h1>
-            <p class="lead">{{ $project->body }}</p>
+            {{ Form::label('title', 'Title:', ['class' => 'form-spacing-top']) }}
+            {{ Form::text('title', null, ["class" => 'form-control']) }}
+
+            {{ Form::label('body', 'Body:', ['class' => 'form-spacing-top']) }}
+            {{ Form::textarea('body', null, ['class' => 'form-control']) }}
         </div>
         <div class="col-md-4">
             <div class="well">
@@ -21,14 +25,15 @@
                 <hr>
                 <div class="row">
                     <div class="col-sm-6">
-                        {!! Html::linkRoute('project.edit', 'Edit', array($project->id), array('class'=>'btn btn-primary btn-block')) !!}
+                        {!! Html::linkRoute('project.show', 'Cancel', array($project->id), array('class'=>'btn btn-danger btn-block')) !!}
                     </div>
                     <div class="col-sm-6">
-                        {!! Html::linkRoute('project.destroy', 'Delete', array($project->id), array('class'=>'btn btn-delete btn-block')) !!}
+                        {{ Form::submit('Save Changes', ['class' => 'btn btn-success btn-block']) }}
+
                     </div>
 
                 </div>
             </div>
         </div>
     </div>
-@endsection
+    @endsection

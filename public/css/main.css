@@ -57,10 +57,6 @@ nav.navbar a.nav-link:hover
     color: darkorange;
 }
 
-ul.nav li.logo {
-
-}
-
 ul.nav li.about {
     padding-left: 550px;
 }
@@ -331,7 +327,7 @@ img.img-thumbnail:hover {
 }
 
 div.row {
-    padding-bottom: 30px;
+    padding:0 0 30px 0;
 }
 
 .fa-laravel {
@@ -737,6 +733,9 @@ figcaption:hover {
 }
 /* end of work experience */
 
+.form-spacing-top {
+    padding-top: 20px;
+}
 @media (min-width: 992px) {
     nav.main-navigation li.nav-item + li.nav-item:before {
         content: "\2022";

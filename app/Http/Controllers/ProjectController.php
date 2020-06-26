@@ -18,7 +18,10 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        //
+        //create a variable and store aal the projects in it
+        $projects = Project::all();
+        //return a view and pass in the above variable
+        return view('project.index')->withProjects($projects);
     }
 
     /**
@@ -66,7 +69,10 @@ class ProjectController extends Controller
      */
     public function show($id)
     {
-        return view('project.show');
+        $project = Project::find($id);
+        return view('project.show')->withProject($project);
+
+
     }
 
     /**
@@ -77,7 +83,10 @@ class ProjectController extends Controller
      */
     public function edit($id)
     {
-        //
+        //find a post in database and save as a variable
+        $project = Project::find($id);
+        //return view and pass the project var
+        return view('project.edit')->withProject($project);
     }
 
     /**
@@ -89,7 +98,25 @@ class ProjectController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        //validate the data
+        $request->validate([
+            'title' => 'required|max:255',
+            'body' => 'required',
+        ]);
+
+        //Save the data to the database
+        $project = Project::find($id);
+
+        $project->title = $request->input('title');
+        $project->body = $request->input('body');
+
+        $project->save();
+
+        //set flash data with success message
+        Session::flash('success', 'This project was successfully saved.');
+
+        //redirect with flash data to project.show
+        return redirect()->route('project.show', $project->id);
     }
 
     /**
