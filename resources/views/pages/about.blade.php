@@ -2,12 +2,15 @@
 
 @section('content')
     <!-- Hero -->
-    <div class="container py-5">
+    <div class="container py-5 col-lg-10">
         <h1 class="display-2 pb-2 text-focus-in">Meet Inna</h1>
         <hr class="border-3 border-white my-4 ml-0 text-left w-25" role="presentation">
         <div class="row">
             <div class="col-lg-8">
-                <p class="font-serif lead mb-4 text-secondary">A talented and creative developer with a passion in programming</p>
+                <p class="font-serif lead mb-4 text-secondary">A talented and creative developer with a passion in programming.</p>
+                <p class="font-serif lead mb-4 text-secondary">I have developed     programming competencies through hands-on experience in
+                    developing websites and applications at the University of Winnipeg using such languages as HTML,
+                    JavaScript, PHP and Python, and I am eager to integrate my talents and strengths into a supportive workplace.</p>
             </div>
         </div>
     </div>
@@ -15,9 +18,12 @@
 
     <!-- Skills -->
     <div class="bg-white text-black">
-        <div class="container py-6">
-            <h3 class="h3 text-center mb-5 font-sans-serif">Strength</h3>
-            <div class="row">
+        <div class="container py-6 col-md-8">
+            <div class="sectiontitle">
+                <h2 class="text-center mb-5">Skills & Strengths</h2>
+
+            </div>
+            <div class="row pb-5">
                 <div class="col-md">
                     <blockquote class="text-center mb-5 mb-sm-0">
                         <i class="fas fa-paint-brush fa-7x"></i><br>
@@ -69,27 +75,29 @@
             </div>
         </div>
 
-        <div class="container py-6">
+        <div class="container py-6 col-md-8">
 
             <div id="workexperience" class="sectionClass">
                 <div class="row ">
                     <div class="sectiontitle">
-                        <h2>Experience and education</h2>
+                        <h2 class="text-center">Education & Work</h2>
                         <span class="headerLine"></span>
                     </div>
                     <div class="fullWidth eight columns">
                         <ul class="cbp_tmtimeline">
                             <li>
                                 <div class="cbp_tmicon cbp_tmicon-phone">
-                                    <i class="fas fa-university fa-4x faPra"></i>
+                                    <i class="fa-university fa-4x faPra"></i>
                                 </div>
                                 <div class="cbp_tmlabel wow fadeInRight animated">
-                                    <h3>Web developer</h3>
+                                    <h3>Web Development Diploma</h3>
                                     <div class="date">
-                                        <i class="fa fa-calendar"></i>April 2014 - Current
+                                        <i class="fa fa-calendar"></i>Sept 2019 - Aug 2020
                                     </div>
-                                    <h4><i class="fa fa-flag"></i>Davic Company, Bratislava</h4>
-                                    <p class="projectParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit obcaecati ipsa quae, iusto laudantium qui, nisi eum modi perspiciatis quasi facilis corporis iure soluta enim incidunt itaque aspernatur sequi tempora.</p>
+                                    <h4><i class="fa fa-flag"></i>The University of Winnipeg, MB</h4>
+                                    <p class="projectParagraph">Developed hands-on skills in web development applications and programming languages
+                                        such as HTML, CSS, XML, JavaScript, PHP, and Java;</p>
+                                    <p class="projectParagraph">Gained an understanding of security problems in order to install, set-up, and secure a Web server.</p>
                                 </div>
                             </li>
                             <li>
@@ -97,33 +105,32 @@
                                     <i class="faPra fa-briefcase"></i>
                                 </div>
                                 <div class="cbp_tmlabel wow fadeInRight animated">
-                                    <h3>Web designer</h3>
-                                    <h4><i class="fa fa-flag"></i>Fannous Company, Prague</h4>
-                                    <div class="date"><i class="fa fa-calendar"></i>June 2012 - April 2014</div>
-                                    <p class="projectParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quasi perspiciatis, aliquid sed maiores accusamus. Adipisci quidem nostrum quos quae doloremque esse a, ipsum earum, recusandae omnis dignissimos et sint.</p>
+                                    <h3>Customer Support Representative</h3>
+                                    <h4><i class="fa fa-flag"></i>Namecheap Inc, Kharkiv, Ukraine</h4>
+                                    <div class="date"><i class="fa fa-calendar"></i>Oct 2016 - Jun 2017</div>
+                                    <p class="projectParagraph">Identified and resolved customer issues regarding domains, hosting and email accounts. Supported clients with debugging, hosting account maintenance and migration, software management, website optimization.
+                                    </p>
+                                    <p class="projectParagraph">Applied strong troubleshooting and communication skills to solve technical issues.</p>
                                 </div>
                             </li>
                             <li>
                                 <div class="cbp_tmicon cbp_tmicon-mail">
-                                    <i class="faPra fa-briefcase"></i>
+                                    <i class="fa-university fa-4x faPra"></i>
                                 </div>
                                 <div class="cbp_tmlabel wow fadeInRight animated">
-                                    <h3>Web designer</h3>
-                                    <h4><i class="fa fa-flag"></i>Techixs Company, London</h4>
+                                    <h3>Bachelor of Applied Linguistics</h3>
+                                    <h4><i class="fa fa-flag"></i>V. N. Karazin Kharkiv National University, Ukraine</h4>
                                     <div class="date"><i class="fa fa-calendar"></i>November 2009 - June 2012</div>
-                                    <p class="projectParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla labore atque alias ipsa, nam quod rerum repellat cumque, aliquam sequi vitae voluptatibus cum soluta incidunt tempore accusamus eius sed excepturi!Lorem ipsum dolor sit amet,
-                                        consectetur adipisicing elit. Tempora natus veritatis aperiam repellendus dolor vel, expedita assumenda eos, mollitia quae ullam esse voluptas vero. Dolores culpa eaque vitae eum quibusdam?</p>
+                                    <p class="projectParagraph">
+                                        Gained knowledge and skills in the following areas:
+                                        <br> - Programming
+                                        <br> - Computer Science
+                                        <br> - Machine translation
+                                        <br> - English Language
+                                        <br> - German Language (B2)
 
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cbp_tmicon cbp_tmicon-phone">
-                                    <i class="faPra fa-briefcase"></i>
-                                </div>
-                                <div class="cbp_tmlabel wow fadeInRight animated">
-                                    <h3>Freelancer</h3>
-                                    <div class="date"><i class="fa fa-calendar"></i>Januar 2006 - November 2009</div>
-                                    <p class="projectParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse iusto, possimus hic at quisquam, incidunt illo asperiores et nobis, qui nulla consequatur molestiae quibusdam expedita dignissimos? Iste eum velit quos.</p>
+                                    </p>
+
                                 </div>
                             </li>
                         </ul>

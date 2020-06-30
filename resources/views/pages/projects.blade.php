@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Hero -->
-    <div class="container py-5">
+    <div class="container py-5 col-lg-10">
         <h1 class="display-2 pb-2 text-focus-in">My Recent Work</h1>
         <hr class="border-3 border-white my-4 ml-0 text-left w-25" role="presentation">
         <div class="row">
@@ -76,6 +76,40 @@
                     </figure>
                 </a>
             </li>
+
+            <li class="col-md-6 mb-3">
+                <a href="http://capstone.innaweb.tech">
+                    <figure>
+                        <div class="img-overlay mb-3">
+                            <img src="{{ asset('images/boat.png') }}" alt="Architecture" class="img-thumbnail">
+                        </div>
+                        <figcaption class="h5 font-weight-normal text-muted text-center">Blue Voyage</figcaption>
+                    </figure>
+                </a>
+            </li>
+
+
+            <li class="col-md-6 mb-3">
+                <a href="http://capstone.innaweb.tech">
+
+                    <div class="img-overlay mb-3">
+                        <figcaption class="h5 font-weight-normal">
+                            <h4>An ecommerce website built with PHP</h4>
+
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">HTML/CSS</li>
+                                <li class="list-group-item">MySQL, CRUD implementation</li>
+                                <li class="list-group-item">PHP</li>
+                                <li class="list-group-item">Admin Panel</li>
+                                <li class="list-group-item">Shopping cart</li>
+                                <li class="list-group-item">User Authentication, Registration</li>
+
+                            </ul>
+                        </figcaption>
+                    </div>
+                </a>
+            </li>
+
         </ul>
         <div class="text-center my-5">
             <a href="pages.html" class="btn btn-outline-white">View all</a>

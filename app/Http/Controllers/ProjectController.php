@@ -19,7 +19,7 @@ class ProjectController extends Controller
     public function index()
     {
         //create a variable and store aal the projects in it
-        $projects = Project::all();
+        $projects = Project::orderBy('id', 'desc')->paginate(5);
         //return a view and pass in the above variable
         return view('project.index')->withProjects($projects);
     }
@@ -127,6 +127,9 @@ class ProjectController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $project = Project::find($id);
+        $project->delete();
+        Session::flash('success', 'The project was deleted successfully!');
+        return redirect()->route('project.index');
     }
 }

@@ -4,7 +4,7 @@
 
 @section('content')
     <!-- Hero -->
-    <div class="container py-5">
+    <div class="container py-5 col-lg-10 hero">
         <h1 class="display-2 pb-2 text-focus-in">Junior Web Developer</h1>
         <hr class="border-3 border-white my-4 ml-0 text-left w-25" role="presentation">
         <div class="row">
@@ -18,7 +18,9 @@
     </div>
 
     <!-- Projects -->
-    <div class="container py-4">
+    <div class="container py-5 col-lg-10 projects">
+        <h3 class="h3 text-center mb-5 font-sans-serif" style="color:white">Projects</h3>
+
         <ul class="row list-unstyled">
             <li class="col-md-6 mb-3">
                 <a href="https://travelblog.innaweb.tech">
@@ -29,7 +31,7 @@
                                 <p class="img-text">View Page</p>
                             </div>
                         </div>
-                        <figcaption class="h5 font-weight-normal text-center">Travel Blog (Custom HTML/CSS)</figcaption>
+                        <figcaption class="h5 font-weight-normal text-muted text-center">Travel Blog</figcaption>
                     </figure>
                 </a>
             </li>
@@ -43,47 +45,20 @@
                                 <p class="img-text">View Page</p>
                             </div>
                         </div>
-                        <figcaption class="h5 font-weight-normal text-center">Boat Tours Website (Custom HTML/CSS + JS)</figcaption>
-                    </figure>
-                </a>
-            </li>
-
-            <li class="col-md-6 mb-3">
-                <a href="http://capstone.innaweb.tech">
-                    <figure>
-                        <div class="img-overlay mb-3">
-                            <img src="{{ asset('images/boat.png') }}" alt="Photography" class="img-thumbnail">
-                            <div class="img-hover">
-                                <p class="img-text">View Page</p>
-                            </div>
-                        </div>
-                        <figcaption class="h5 font-weight-normal text-center">Boat Tours (PHP + MySQL)</figcaption>
-                    </figure>
-                </a>
-            </li>
-
-            <li class="col-md-6 mb-3">
-                <a href="#">
-                    <figure>
-                        <div class="img-overlay mb-3">
-                            <img src="{{ asset('images/default.png') }}" alt="Web Design" class="img-thumbnail shadow-drop-2-center">
-                            <div class="img-hover">
-                                <div class="img-text">View Page</div>
-                            </div>
-                        </div>
-                        <figcaption class="h5 font-weight-normal text-center">BeeHive Social Network (React + Redux) </figcaption>
+                        <figcaption class="h5 font-weight-normal text-muted text-center">Gemalmaz Website</figcaption>
                     </figure>
                 </a>
             </li>
         </ul>
-        <div class="text-center my-5">
+
+        <div class="text-center mb-3">
             <a href="/projects" class="btn btn-outline-white">View all</a>
         </div>
     </div>
     <!-- Testimonials -->
     <div class="bg-white text-black">
-        <div class="container py-6">
-            <h3 class="h3 text-center mb-5 font-sans-serif">Strength</h3>
+        <div class="container py-6 col-md-8">
+            <h3 class="h3 text-center mb-5 font-sans-serif">Skills</h3>
             <div class="row">
                 <div class="col-md">
                     <blockquote class="text-center mb-5 mb-sm-0">

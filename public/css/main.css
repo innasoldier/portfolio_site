@@ -6,48 +6,55 @@ a:hover {
   text-decoration: none;
 }
 
+nav.navbar {
+    background-color: #0e0e0e;
+    color: #fff;
+    border: 1px solid #262626!important;
+    min-height: 70px;
+    padding: 7px 20px;
+}
+
+span.small {
+    font-weight: bold;
+}
+
+div.col-lg-8 {
+    padding-left: 0;
+}
 body {
     margin: 0;
-    font-family: Fira Sans,sans-serif;
+    font-family: Fira Sans, sans-serif;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.3;
     color: #fff;
     text-align: left;
     background-color: #0e0e0e;
 }
-header ul.nav {
-    height: 70px;
-    background-color: #0e0e0e;
+
+header ul.navbar-nav {
+    color: white;
     font-family: "Fira Sans", sans-serif;
     text-transform: uppercase;
     font-size: 18px;
     border: #262626!important;
-
 }
 
-header ul.nav li a {
+header ul.navbar-nav li a {
     border-bottom: 3px solid transparent;
     letter-spacing: 2px;
     transition: border-color .2s linear;
-    color: white;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
     display: inline-block;
-}
-
-nav.main-navigation a.navbar-brand {
     color: #fff;
 }
 
-nav.main-navigation {
-    background-color: #0e0e0e;
-    border-color: #262626!important;
-    padding: 0 200px;
-    border: 1px solid #262626!important;
+a.navbar-brand {
+    color: #fff;
 }
 
-ul.nav li a.active {
+ul.navbar-nav li a.active {
     border-color: #fff;
 }
 
@@ -55,10 +62,6 @@ nav.navbar a.navbar-brand:hover,
 nav.navbar a.nav-link:hover
 {
     color: darkorange;
-}
-
-ul.nav li.about {
-    padding-left: 550px;
 }
 
 .text-focus-in {
@@ -262,6 +265,7 @@ div.bg-white {
 div.form-row {
     padding-bottom: 70px;
     box-sizing: initial;
+    min-height: 400px;
 }
 
 span.small {
@@ -286,7 +290,7 @@ img.avatar {
 }
 
 img.img-thumbnail {
-  width: 550px;
+  width: 450px;
   height: 310px;
   transition: all .2s ease-in-out;
 }
@@ -295,6 +299,10 @@ img.img-thumbnail:hover {
     -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     transform: scale(0.97);
+}
+
+.hero{
+    border-bottom: 1px solid #262626;
 }
 
 .fa-file-code {
@@ -327,7 +335,8 @@ img.img-thumbnail:hover {
 }
 
 div.row {
-    padding:0 0 30px 0;
+    padding:0;
+    margin: 0;
 }
 
 .fa-laravel {
@@ -341,7 +350,7 @@ h3.h3 {
 }
 
 figcaption {
-    color: white;
+    color: darkorange;
 }
 
 figcaption.h5 {
@@ -358,7 +367,7 @@ figcaption:hover {
     padding: 80px 0px 50px 0px;
     position: relative;
     display: block;
-    background: rgb(249, 249, 249);
+
 }
 
 .row {
@@ -375,7 +384,6 @@ figcaption:hover {
 }
 
 .sectiontitle {
-    background-position: center;
     text-align: center;
     min-height: 20px;
 }
@@ -386,10 +394,11 @@ figcaption:hover {
     margin-bottom: 0px;
     padding-right: 10px;
     padding-left: 10px;
+    text-align: center;
 }
 
 .headerLine {
-    width: 160px;
+    width: 240px;
     height: 2px;
     display: inline-block;
     background: #101F2E;
@@ -558,7 +567,7 @@ figcaption:hover {
 .sectionClassProject {
     position: relative;
     display: block;
-    /* background: #f7f7f7; */
+     background: #f7f7f7;
 
     margin: 0 auto;
     padding: 80px 1.875em 3.125em;
@@ -611,7 +620,7 @@ figcaption:hover {
 }
 
 .date {
-    color: #BFC3C7;
+    color: darkorange;
     display: block;
     font-size: 14px;
     font-weight: 600;
@@ -737,11 +746,17 @@ figcaption:hover {
     padding-top: 20px;
 }
 @media (min-width: 992px) {
-    nav.main-navigation li.nav-item + li.nav-item:before {
+    nav.navbar li.nav-item + li.nav-item:before {
         content: "\2022";
         color: #a6a6a6;
         padding-left: 1.25rem;
         padding-right: 1.25rem;
         box-sizing: border-box;
     }
+
+    nav.navbar {
+        padding: 0 150px;
+    }
+
+
 }

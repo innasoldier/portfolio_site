@@ -13,9 +13,9 @@
             <div class="col-4 col-md-2">
                 <h2 class="h6 mb-3">Contacts</h2>
                 <ul class="nav flex-column">
-                    <li class="mb-1 text-muted">inna.soldier@gmail.com</li>
                     <li class="mb-1 text-muted">238 Spence St</li>
                     <li class="mb-1 text-muted">Winnipeg, MB</li>
+                    <li class="mb-1 text-muted">Canada</li>
                     <li class="mb-1 text-muted">+1 (431) 374-7476</li>
                 </ul>
             </div>

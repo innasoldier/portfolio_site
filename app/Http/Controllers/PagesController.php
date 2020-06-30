@@ -2,6 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
+use App\Http\Requests;
+use App\Project;
+use Session;
+use Mail;
+
 class PagesController extends Controller {
 
     public function getIndex() {
@@ -34,6 +40,31 @@ class PagesController extends Controller {
 
     public function getContact() {
         return view('pages.contact');
+    }
+
+    public function projectContact(Request $request) {
+        $request->validate([
+            'email' => 'required|email',
+            'message' => 'min:10',
+            'subject' => 'min:3'
+        ]);
+
+        $data = array(
+            'email' => $request->email,
+            'subject'=> $request->subject,
+            'bodyMessage' =>$request->message,
+        );
+
+        Mail::send('emails.contact', $data, function($message) use($data){
+            $message->from($data['email']);
+            $message->to('inna.soldier@gmail.com');
+            $message->subject($data['subject']);
+
+        });
+
+        Session::flash('success', 'Your message was sent. Thank you!');
+
+        return redirect('/');
     }
 
     public function getProjects() {

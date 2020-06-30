@@ -15,7 +15,8 @@
         </div>
     <div class="row form-row">
         <div class="col-md-12">
-            <form>
+            <form action="{{ url('contact') }}" method="POST">
+                {{ csrf_field() }}
                 <div class="form-group col-md-6">
                     <label name="email">Email:</label>
                     <input id="email" name="email" class="form-control" placeholder="Your email">

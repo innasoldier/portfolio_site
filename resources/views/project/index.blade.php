@@ -9,7 +9,7 @@
             <h1>All Posts</h1>
         </div>
         <div class="col-md-2">
-            <a href="{{ route('project.index') }}" class="btn btn-lg btn-block btn-primary"></a>
+            <a href="{{ route('project.create') }}" class="btn btn-lg btn-block btn-primary">Create New</a>
         </div>
         <hr>
     </div>
@@ -31,13 +31,17 @@
                             <td>{{ substr($project->body, 0, 50) }}{{ strlen($project->body) > 50 ? "..." :"" }}</td>
                             <td>{{ date('M j, Y', strtotime($project->created_at)) }}</td>
                             <th>
-                                <a href="{{'project.show', $project->id}}" class="btn btn-default">View</a>
-                                <a href="{{'project.edit', $project->id}}" class="btn btn-default">Edit</a>
+                                <a href="{{ route('project.show', $project->id)}}" class="btn btn-default">View</a>
+                                <a href="{{ route('project.edit', $project->id)}}" class="btn btn-default">Edit</a>
                             </th>
                         </tr>
                     @endforeach
                 </tbody>
             </table>
+
+            <div class="text-center">
+                {!! $projects->links(); !!}
+            </div>
         </div>
     </div>
     @stop
