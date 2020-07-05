@@ -10,6 +10,9 @@
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,600%7CFira+Sans:300,400,400i,600" rel="stylesheet">
+    <link rel="icon"
+          type="image/png"
+          href="images/battery-level.png">
 
     @yield('stylesheets')
     <title>IS @yield('title')</title> <!-- change for each page -->
