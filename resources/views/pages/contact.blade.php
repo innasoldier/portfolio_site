@@ -9,7 +9,9 @@
             <hr class="border-3 border-white my-4 ml-0 text-left w-25" role="presentation">
             <div class="row">
                 <div class="col-lg-8">
-                    <p class="font-serif lead mb-4 text-secondary">Please reach me via email for any questions or offers</p>
+                    <p class="font-serif lead mb-4 text-secondary">Email: inna.soldier@gmail.com</p>
+                    <p class="font-serif lead mb-4 text-secondary">Mobile: +1 (431) 374-7476</p>
+                    <p class="font-serif lead mb-4">Please reach me via email for any questions or offers by submitting a contact form:</p>
                 </div>
             </div>
         </div>

@@ -30,7 +30,7 @@
             </div>
             <div class="col-sm-12 col-md-4 mt-4 mt-md-0">
                 <h2 class="h6 mb-3">Description</h2>
-                <p class="text-muted">I am seeking opportunities to contribute my knowledge and enthusiasm to a growing IT company as a Junior Web Developer.
+                <p class="text-muted">I am seeking opportunities to contribute my knowledge and enthusiasm to a fast-growing IT company.
                 </p>
                 <p class="text-muted">Copyright &copy; 2020 - Inna Soldatkina</p>
             </div>

@@ -15,6 +15,7 @@
     <!-- Projects -->
     <div class="container py-4">
         <ul class="row list-unstyled">
+
             <li class="col-md-6 mb-3">
                 <a href="https://travelblog.innaweb.tech">
                     <figure>
@@ -47,19 +48,18 @@
             </li>
 
             <li class="col-md-6 mb-3">
-                <a href="http://gemalmaz.com">
+                <a href="http://lifehackers.innaweb.tech">
 
                         <div class="img-overlay mb-3">
                             <figcaption class="h5 font-weight-normal">
-                                <h4>Boat Tours business website built with custom HTML/CSS, JS and PHP.</h4>
+                                <h4>A real-world web application with React JS and Firebase</h4>
 
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">HTML</li>
-                                    <li class="list-group-item">CSS</li>
-                                    <li class="list-group-item">JavaScript</li>
-                                    <li class="list-group-item">jQuery</li>
-                                    <li class="list-group-item">PHP</li>
-                                    <li class="list-group-item">Fully responsive</li>
+                                    <li class="list-group-item">JavaScript, ES6</li>
+                                    <li class="list-group-item">Functional, class components, HOC</li>
+                                    <li class="list-group-item">State Management, Redux</li>
+                                    <li class="list-group-item">Authentication</li>
+                                    <li class="list-group-item">Messages feature</li>
                                 </ul>
                             </figcaption>
                         </div>
@@ -67,12 +67,12 @@
             </li>
 
             <li class="col-md-6 mb-3">
-                <a href="http://gemalmaz.com">
+                <a href="http://lifehackers.innaweb.tech">
                     <figure>
                         <div class="img-overlay mb-3">
-                            <img src="{{ asset('images/gemalmaz.png') }}" alt="Web Design" class="img-thumbnail">
+                            <img src="{{ asset('images/lifehackers.png') }}" alt="Web Design" class="img-thumbnail">
                         </div>
-                        <figcaption class="h5 font-weight-normal text-muted text-center">Boat Tours Website (Custom HTML/CSS + JS) </figcaption>
+                        <figcaption class="h5 font-weight-normal text-muted text-center">LifeHackers React App </figcaption>
                     </figure>
                 </a>
             </li>
@@ -110,10 +110,40 @@
                 </a>
             </li>
 
+
+            <li class="col-md-6 mb-3">
+                <a href="http://gemalmaz.com">
+
+                    <div class="img-overlay mb-3">
+                        <figcaption class="h5 font-weight-normal">
+                            <h4>Boat Tours business website built with custom HTML/CSS, JS and PHP.</h4>
+
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">HTML</li>
+                                <li class="list-group-item">CSS</li>
+                                <li class="list-group-item">JavaScript</li>
+                                <li class="list-group-item">jQuery</li>
+                                <li class="list-group-item">PHP</li>
+                                <li class="list-group-item">Fully responsive</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                </a>
+            </li>
+
+            <li class="col-md-6 mb-3">
+                <a href="http://gemalmaz.com">
+                    <figure>
+                        <div class="img-overlay mb-3">
+                            <img src="{{ asset('images/gemalmaz.png') }}" alt="Web Design" class="img-thumbnail">
+                        </div>
+                        <figcaption class="h5 font-weight-normal text-muted text-center">Boat Tours Website (Custom HTML/CSS + JS) </figcaption>
+                    </figure>
+                </a>
+            </li>
+
+
         </ul>
-        <div class="text-center my-5">
-            <a href="pages.html" class="btn btn-outline-white">View all</a>
-        </div>
     </div>
 
     @endsection

@@ -61,7 +61,7 @@
                     <blockquote class="text-center mb-5 mb-md-0">
                         <i class="fab fa-react fa-7x"></i><br>
                         <span class="small text-muted text-uppercase">JavaScript + React</span>
-                        <p class="quote text-muted mt-3 mb-0">Core knowledge of the Vanilla JavaScript, jQuery, VueJS. Actively learning React and Redux while developing a social network app.</p>
+                        <p class="quote text-muted mt-3 mb-0">Core knowledge of the Vanilla JavaScript, jQuery. Experience with React, Redux, Firebase, REST APIs</p>
                     </blockquote>
                 </div>
 
@@ -69,7 +69,7 @@
                     <blockquote class="text-center">
                         <i class="fab fa-laravel fa-7x"></i><br>
                         <span class="small text-muted text-uppercase">PHP + Laravel</span>
-                        <p class="quote text-muted mt-3 mb-0">Confident in programming with PHP (this website was built with Laravel). Ajax, MySQL, SQLite, REST API</p>
+                        <p class="quote text-muted mt-3 mb-0">Confident in programming with PHP. Experience with Laravel, Ajax, MySQL, SQLite</p>
                     </blockquote>
                 </div>
             </div>

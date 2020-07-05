@@ -5,12 +5,12 @@
 @section('content')
     <!-- Hero -->
     <div class="container py-5 col-lg-10 hero">
-        <h1 class="display-2 pb-2 text-focus-in">Junior Web Developer</h1>
+        <h1 class="display-2 pb-2 text-focus-in">Web Developer</h1>
         <hr class="border-3 border-white my-4 ml-0 text-left w-25" role="presentation">
         <div class="row">
             <div class="col-lg-8">
-                <p class="font-serif lead mb-4 text-secondary">I am kick-starting my career in web development.
-                    My main focus is on elegant designs powered by reliable, secure, and fast back-end technologies. </p>
+                <p class="font-serif lead mb-4 text-secondary">IT enthusiast with a diverse set of skills, ranging from design, HTML/CSS and JavaScript all the way to PHP and Python.
+                    My main focus is on elegant and unique designs powered by reliable, secure, and fast back-end technologies. </p>
                 <p class="font-serif lead mb-4 text-secondary"> </p>
             </div>
         </div>
@@ -37,18 +37,19 @@
             </li>
 
             <li class="col-md-6 mb-3">
-                <a href="http://gemalmaz.com">
+                <a href="https://travelblog.innaweb.tech">
                     <figure>
                         <div class="img-overlay mb-3">
-                            <img src="{{ asset('images/gemalmaz.png') }}" alt="Interior Design" class="img-thumbnail">
+                            <img src="{{ asset('images/lifehackers.png') }}" alt="Architecture" class="img-thumbnail">
                             <div class="img-hover">
                                 <p class="img-text">View Page</p>
                             </div>
                         </div>
-                        <figcaption class="h5 font-weight-normal text-muted text-center">Gemalmaz Website</figcaption>
+                        <figcaption class="h5 font-weight-normal text-muted text-center">LifeHackers React App</figcaption>
                     </figure>
                 </a>
             </li>
+
         </ul>
 
         <div class="text-center mb-3">
@@ -71,7 +72,7 @@
                     <blockquote class="text-center mb-5 mb-md-0">
                         <i class="fab fa-react fa-7x"></i><br>
                         <span class="small text-muted text-uppercase">JavaScript + React</span>
-                        <p class="quote text-muted mt-3 mb-0">Core knowledge of the Vanilla JavaScript, jQuery, VueJS. Actively learning React and Redux while developing a social network app</p>
+                        <p class="quote text-muted mt-3 mb-0">Core knowledge of the Vanilla JavaScript, jQuery. Experience with React, Redux, Firebase, REST APIs</p>
                     </blockquote>
                 </div>
 
@@ -79,7 +80,7 @@
                     <blockquote class="text-center">
                         <i class="fab fa-laravel fa-7x"></i><br>
                         <span class="small text-muted text-uppercase">PHP + Laravel</span>
-                        <p class="quote text-muted mt-3 mb-0">Confident in programming with PHP (this website was built with Laravel). Ajax, MySQL, SQLite, REST API</p>
+                        <p class="quote text-muted mt-3 mb-0">Confident in programming with PHP. Experience with Laravel, Ajax, MySQL, SQLite</p>
                     </blockquote>
                 </div>
             </div>
