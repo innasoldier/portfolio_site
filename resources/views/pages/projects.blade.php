@@ -48,11 +48,11 @@
             </li>
 
             <li class="col-md-6 mb-3">
-                <a href="http://lifehackers.innaweb.tech">
+                <a href="https://github.com/innasoldier/lifehackers.git">
 
                         <div class="img-overlay mb-3">
                             <figcaption class="h5 font-weight-normal">
-                                <h4>A real-world web application with React JS and Firebase</h4>
+                                <h4>A real-world web application with React JS and Firebase (developing)</h4>
 
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item">JavaScript, ES6</li>
@@ -67,7 +67,7 @@
             </li>
 
             <li class="col-md-6 mb-3">
-                <a href="http://lifehackers.innaweb.tech">
+                <a href="https://github.com/innasoldier/lifehackers.git">
                     <figure>
                         <div class="img-overlay mb-3">
                             <img src="{{ asset('images/lifehackers.png') }}" alt="Web Design" class="img-thumbnail">

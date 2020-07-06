@@ -37,7 +37,7 @@
             </li>
 
             <li class="col-md-6 mb-3">
-                <a href="https://travelblog.innaweb.tech">
+                <a href="https://github.com/innasoldier/lifehackers.git">
                     <figure>
                         <div class="img-overlay mb-3">
                             <img src="{{ asset('images/lifehackers.png') }}" alt="Architecture" class="img-thumbnail">
@@ -45,7 +45,7 @@
                                 <p class="img-text">View Page</p>
                             </div>
                         </div>
-                        <figcaption class="h5 font-weight-normal text-muted text-center">LifeHackers React App</figcaption>
+                        <figcaption class="h5 font-weight-normal text-muted text-center">LifeHackers React App (developing)</figcaption>
                     </figure>
                 </a>
             </li>
